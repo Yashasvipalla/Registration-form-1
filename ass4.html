@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+    <title>RF</title>
+    <link rel="stylesheet" href="ass4.css">
+
+
+</head>
+
+<body>
+    <form>
+        <div id="error"></div>
+        <div class="design">
+            <div class="left">
+                <h1>Registration Form</h1>
+                <div id="input">
+                    <input type="text" name="fname" placeholder="FirstName" />
+                    <input type="text" name="lname" placeholder="LastName" />
+                    <input type="email" name="email" placeholder="Email" />
+                    <input type="text" name="contact" placeholder="Contact number" /><br>
+
+                    <h4>Enter your address : </h4><br>
+                    <textarea name="address" cols="43" rows="5"></textarea>
+
+                    <input type="password" id="pass" placeholder="Password" />
+                    <input type="password" name="retype" placeholder="RetypePassword" />
+                    <h4>Gender</h4>
+                    <div id="g">
+                        <input type="radio" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender">
+                        <label for="other">Other</label>
+                    </div>
+
+                    <h4 id="cont">Country</h4>
+                    <div class="dd"></div>
+                    <select name="country" id="drop">
+                        <option value="India">India</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Paris">Paris</option>
+                        <option value="France">France</option>
+                    </select>
+                </div>
+                <div id="rs">
+                    <input type="reset" name="reset" style="background-color: orangered; width: 120px; ;">
+                    <input type="submit" name="submit"
+                        style="background-color: green;  width: 130px;height: 28px;padding-left: 2 0px;display: flex;align-items: center; text-decoration: none; color: cornsilk;">
+
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </form>
+</body>
+
+</html>
